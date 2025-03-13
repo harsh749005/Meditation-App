@@ -1,0 +1,35 @@
+      <StatusBar translucent backgroundColor="transparent" barStyle="light-content" />
+
+      <ImageBackground
+        source={require("../assets/Simple-Meditation-Assets/meditation-images/beach.webp")}
+        style={styles.background}
+        resizeMode="cover"
+      >
+
+             <LinearGradient
+          style={styles.backgroundGradient}
+          colors={["rgba(0,0,0,0.4)", "rgba(0,0,0,0.8)"]}
+        >
+
+         const router = useRouter();
+                     <CustomButton onPress={() => router.push('/test')} title='Get Started'/>
+const { width } = Dimensions.get("window");
+
+// bottom navigation bar
+    <Tabs
+      screenOptions={{
+        headerShown: false,
+        tabBarActiveTintColor: Colors.primary,
+      }}
+    >
+   <Tabs.Screen
+        name="NatureMeditate"
+        options={{
+          tabBarLabel: "Meditate",
+          tabBarIcon: ({ color }) => (
+            <MaterialCommunityIcons
+              name="flower-pollen-outline"
+              size={24}
+              color={color}
+            />
+    </Tabs>
